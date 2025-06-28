@@ -14,7 +14,7 @@ app.use("/recipes", recipesRouter);
 
 mongoose
   .connect(
-    "mongodb+srv://demomongo123:demomongo123@cluster0.bwegp.mongodb.net/recipetest?retryWrites=true&w=majority&appName=Cluster0",
+    "url_here",
     {
       useNewUrlParser: true,
       useUnifiedTopology: true,
